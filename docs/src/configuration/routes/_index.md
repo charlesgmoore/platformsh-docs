@@ -272,3 +272,6 @@ To use WebSocket on a route, `cache` must be disabled because WebSocket is incom
     cache:
         enabled: false
 ```
+{{< note >}}
+Websockets are not supported by our Fastly CDN service
+{{< /note >}}
